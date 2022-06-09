@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #0792ce;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  width: 320px;
+  margin-top: 5.5%;
+}
+
+.security-card {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.holder h2 {
+  color: rgb(236, 255, 169);
+  line-height: 30px;
+  margin: 10px 0 30px;
+}
+
+label {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#inputCard {
+  width: 65%;
+}
+
+#inputDate {
+  width: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#inputCVV {
+  width: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+input {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 6px;
+  margin: 10px 2px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+}
+
+input:focus {
+  border-style: none;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(0, 6, 59, 0.25);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(0, 6, 59, 0.25);
+}
+
+input::-ms-input-placeholder {
+  color: rgba(0, 6, 59, 0.25);
+}
+
+input::placeholder {
+  color: rgba(0, 6, 59, 0.25);
+}
+
+input::-moz-selection {
+  color: #cef0ff;
+  background-color: #141414;
+}
+
+input::selection {
+  color: #cef0ff;
+  background-color: #141414;
+}
+/*# sourceMappingURL=style.css.map */
